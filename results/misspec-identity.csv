@@ -1,0 +1,7 @@
+"case","dev.fixed","dev.full"
+"Sc.1 omit income (Gaussian)",4.80561423976616e-14,3.99957850134297
+"Sc.6 omit income (Poisson)",3.19209230530581,2.26405055303336
+"Sc.11 omit income (logistic)",1.74006799075926e-11,3.33252942250369
+"Sc.6 Gaussian analyst on the count release",3.36257658285188,4.34147016181899
+"Sc.11 probit analyst on the logit release",3.24049632564165,3.21934665957309
+"Sc.3 log-link Gaussian analyst on the gamma release",31.1026047119841,20.980137864653

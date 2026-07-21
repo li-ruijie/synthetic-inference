@@ -1,0 +1,11 @@
+"scenario","family","link","arm","sel.aic.orig","sel.aic.rel","sel.bic.orig","sel.bic.rel","aic.same","bic.same","order.same","max.centred.aic.dev","max.centred.dev.dev"
+1,"gaussian","identity","fixed","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,TRUE,5.45696821063757e-12,1.16415321826935e-10
+1,"gaussian","identity","full","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,FALSE,12.9524736623316,2931.70788484014
+3,"gamma","log","fixed","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,FALSE,236.632533957449,21.1004127141081
+3,"gamma","log","full","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,FALSE,31.9148861738722,12.3149833774313
+6,"poisson","log","fixed","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,TRUE,9.52852318379701,9.52852318379587
+6,"poisson","log","full","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,FALSE,41.5755223912129,41.5755223912115
+9,"gaussian","identity","fixed","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,TRUE,0,1.74622982740402e-10
+9,"gaussian","identity","full","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,FALSE,30.1177694491162,11225.7571122744
+11,"binomial","logit","fixed","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,FALSE,789.674801963179,6.82121026329696e-12
+11,"binomial","logit","full","age+female+race+income","age+female+race+income","age+female+race+income","age+female+race+income",TRUE,TRUE,FALSE,817.699905728549,15.9766226742369

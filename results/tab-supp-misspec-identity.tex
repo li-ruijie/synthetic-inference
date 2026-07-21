@@ -1,0 +1,24 @@
+% Emitted by analysis/76-misspec-identity.r from results/misspec-identity.csv.
+% Do not edit by hand; rerun the script.
+\begin{table}[htbp]
+    \centering
+    \caption{Misspecified analyst fits on the release: maximum absolute
+        percentage coefficient deviation of the release refit from the
+        same misspecified fit on the original data.  Fixed, the original
+        covariates with the projected response; full, the fully synthetic
+        table.}
+    \label{tab:supp-misspec-identity}
+    \small
+    \begin{tabular}{@{}lrr@{}}
+        \toprule
+        Misspecified analyst model & Fixed (\%) & Full (\%) \\
+        \midrule
+        Sc.1 omit income (Gaussian) & $<10^{-8}$ & $4$ \\
+        Sc.6 omit income (Poisson) & $3.2$ & $2.3$ \\
+        Sc.11 omit income (logistic) & $<10^{-8}$ & $3.3$ \\
+        Sc.6 Gaussian analyst on the count release & $3.4$ & $4.3$ \\
+        Sc.11 probit analyst on the logit release & $3.2$ & $3.2$ \\
+        Sc.3 log-link Gaussian analyst on the gamma release & $31$ & $21$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}

@@ -1,0 +1,59 @@
+# Python environment for the ML generators (13-, 23-, 26-, 72-).
+# Fully pinned, per the project's Python convention.  Python 3.13.12.
+# Regenerate with: uv pip freeze --python .venv/Scripts/python.exe
+#
+# sdv 1.35.1 is the version the manuscript names (the simulation study section,
+# 'version 1.35 of the Synthetic Data Vault').  torch is required for
+# reproducibility, since ctgan/tvae/copgan train under the torch RNG, which all
+# four generators seed with torch.manual_seed before fitting.
+
+boto3==1.42.84
+botocore==1.42.84
+cloudpickle==3.1.2
+colorama==0.4.6
+contourpy==1.3.3
+copulas==0.14.1
+ctgan==0.12.1
+cycler==0.12.1
+datasynthesizer==0.1.13
+deepecho==0.8.1
+faker==40.13.0
+filelock==3.25.2
+fonttools==4.62.1
+fsspec==2026.3.0
+graphviz==0.21
+jinja2==3.1.6
+jmespath==1.1.0
+joblib==1.5.3
+kiwisolver==1.5.0
+markupsafe==3.0.3
+matplotlib==3.10.8
+mpmath==1.3.0
+narwhals==2.19.0
+networkx==3.6.1
+numpy==2.4.4
+packaging==26.0
+pandas==2.3.3
+pillow==12.2.0
+platformdirs==4.9.4
+plotly==6.6.0
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+pytz==2026.1.post1
+pyyaml==6.0.3
+rdt==1.20.0
+s3transfer==0.16.0
+scikit-learn==1.8.0
+scipy==1.17.1
+sdmetrics==0.28.0
+sdv==1.35.1
+seaborn==0.13.2
+setuptools==81.0.0
+six==1.17.0
+sympy==1.14.0
+threadpoolctl==3.6.0
+torch==2.11.0
+tqdm==4.67.3
+typing-extensions==4.15.0
+tzdata==2026.1
+urllib3==2.6.3

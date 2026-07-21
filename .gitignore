@@ -1,0 +1,10 @@
+# Restricted data, must never be published
+phi_phase1_baseline.dta
+*.dta
+# Transient work dirs / outputs
+largen/
+__pycache__/
+.venv/
+*.log
+.Rhistory
+.RData

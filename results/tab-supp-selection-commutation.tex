@@ -1,0 +1,30 @@
+% Emitted by analysis/75-selection-commutation.r from
+% results/selection-commutation.csv.  Do not edit by hand; rerun the script.
+\begin{table}[htbp]
+    \centering
+    \caption{All-subset model selection on the original data against the
+        release: agreement of the AIC- and BIC-selected subsets, identity
+        of the full AIC ordering over the 16 predictor subsets, and the
+        maximum centred deviations of the AIC and of the deviance (each
+        subset's value differenced against the full model's within arm).
+        Fixed, the original covariates with the projected response; full,
+        the fully synthetic table.}
+    \label{tab:supp-selection-commutation}
+    \small
+    \begin{tabular}{@{}clllllrr@{}}
+        \toprule
+        Sc. & Family (link) & Release & AIC & BIC & Ordering & AIC dev & Dev.\ dev \\
+        \midrule
+        1 & Gaussian (identity) & fixed & same & same & same & $<10^{-9}$ & $<10^{-9}$ \\
+        1 & Gaussian (identity) & full & same & same & differs & $13$ & $2.9 \times 10^{3}$ \\
+        3 & Gamma (log) & fixed & same & same & differs & $2.4 \times 10^{2}$ & $21$ \\
+        3 & Gamma (log) & full & same & same & differs & $32$ & $12$ \\
+        6 & Poisson (log) & fixed & same & same & same & $9.5$ & $9.5$ \\
+        6 & Poisson (log) & full & same & same & differs & $42$ & $42$ \\
+        9 & Gaussian (identity) & fixed & same & same & same & $<10^{-9}$ & $<10^{-9}$ \\
+        9 & Gaussian (identity) & full & same & same & differs & $30$ & $1.1 \times 10^{4}$ \\
+        11 & Binomial (logit) & fixed & same & same & differs & $7.9 \times 10^{2}$ & $<10^{-9}$ \\
+        11 & Binomial (logit) & full & same & same & differs & $8.2 \times 10^{2}$ & $16$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
